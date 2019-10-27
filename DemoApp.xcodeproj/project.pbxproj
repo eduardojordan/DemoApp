@@ -61,7 +61,6 @@
 				04E6CD202365CD43004C810F /* Models */,
 				04E6CD212365CD4B004C810F /* Views */,
 				04E6CD222365CD55004C810F /* Controllers */,
-				04E6CD122365CAAC004C810F /* DemoApp.xcdatamodeld */,
 				04E6CD232365CDBD004C810F /* Resources */,
 			);
 			path = DemoApp;
@@ -70,6 +69,7 @@
 		04E6CD202365CD43004C810F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04E6CD242365D18B004C810F /* CoreData */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -97,6 +97,14 @@
 			children = (
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		04E6CD242365D18B004C810F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				04E6CD122365CAAC004C810F /* DemoApp.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
