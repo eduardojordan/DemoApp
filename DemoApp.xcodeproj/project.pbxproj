@@ -13,6 +13,8 @@
 		04E6CD142365CAAC004C810F /* DemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E6CD122365CAAC004C810F /* DemoApp.xcdatamodeld */; };
 		04E6CD162365CAAD004C810F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E6CD152365CAAD004C810F /* Assets.xcassets */; };
 		04E6CD192365CAAD004C810F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E6CD172365CAAD004C810F /* LaunchScreen.storyboard */; };
+		04E6CD2623663972004C810F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6CD2523663972004C810F /* Book.swift */; };
+		04E6CD28236706AE004C810F /* APIbooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 04E6CD27236706AE004C810F /* APIbooks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04E6CD152365CAAD004C810F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E6CD182365CAAD004C810F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E6CD1A2365CAAD004C810F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E6CD2523663972004C810F /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		04E6CD27236706AE004C810F /* APIbooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = APIbooks.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 		04E6CD202365CD43004C810F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04E6CD2523663972004C810F /* Book.swift */,
 				04E6CD242365D18B004C810F /* CoreData */,
 			);
 			path = Models;
@@ -95,6 +100,7 @@
 		04E6CD232365CDBD004C810F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04E6CD27236706AE004C810F /* APIbooks.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -166,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E6CD192365CAAD004C810F /* LaunchScreen.storyboard in Resources */,
+				04E6CD28236706AE004C810F /* APIbooks.json in Resources */,
 				04E6CD162365CAAD004C810F /* Assets.xcassets in Resources */,
 				04E6CD112365CAAC004C810F /* Main.storyboard in Resources */,
 			);
@@ -178,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E6CD2623663972004C810F /* Book.swift in Sources */,
 				04E6CD0E2365CAAC004C810F /* ViewController.swift in Sources */,
 				04E6CD142365CAAC004C810F /* DemoApp.xcdatamodeld in Sources */,
 				04E6CD0C2365CAAC004C810F /* AppDelegate.swift in Sources */,
@@ -257,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -312,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

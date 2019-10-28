@@ -1,0 +1,854 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1255,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "CIV8DwAAQBAJ",
+      "etag": "BjPr+9s3o20",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/CIV8DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Horóscopo chino 2019",
+        "subtitle": "Año del chancho de tierra. Una voz espiritual",
+        "authors": [
+          "Pedro Engel"
+        ],
+        "publisher": "Editorial Catalonia",
+        "publishedDate": "2018-11-05",
+        "description": "Año a año escribo este libro. No es una tarea fácil, pero mi corazón no renuncia a este rito anual. En el calendario chino existen las doce Ramas Terrestres, las cuales se corresponden con las diferentes energías que surgen de la vitalidad de nuestro planeta y ascienden hacia el Cielo, marcando un ciclo de doce cualidades distintas que se suceden. Cada Rama Terrestre tiene asociado un símbolo chino, el nombre de un animal, uno de los Cinco Elementos y su aspecto es Yin o Yang. Estos animales que forman el zodíaco chino se suceden en el siguiente orden: Rata, Buey, Tigre, Conejo, Dragón, Serpiente, Caballo, Cabra, Mono, Gallo, Perro y Chancho. Desde el 5 de febrero del 2019 y hasta el 24 de enero del 2020 será el reinado del Chancho de Tierra. El Cerdito es benévolo, buena persona, de buen genio, con ganas de pasarlo bien. La energía que trae este animal es La dolce vita. El Chanchito nos invita entre otras cosas, a reír y a compartir con los amigos. El ambiente de relajo del Año del Chancho de Tierra 2019 es el final de un ciclo de los doce signos del zodiaco chino. Es tiempo de un merecido descanso, y una oportunidad de meditar y reflexionar acerca de los años anteriores, para estar preparados y proyectarnos más sabiamente hacia el ciclo que lo sucederá. En estas páginas van mis predicciones para 2019, inspirado en la maravillosa filosofía china. Con humildad y amor se las entrego, recíbanlas con candor y alegría. Feliz Año del Chancho, Jabalí, Cerdo. La respiración es la base de la vida plena. Pedro Engel Bratter",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789563246865"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9563246861"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 252,
+        "printType": "BOOK",
+        "categories": [
+          "Body, Mind & Spirit"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=CIV8DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=CIV8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.es/books?id=CIV8DwAAQBAJ&printsec=frontcover&dq=2019&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=CIV8DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=CIV8DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ES",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 10.88,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 10.34,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=CIV8DwAAQBAJ&rdid=book-CIV8DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.088E7,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 1.034E7,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ES",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.es/books/download/Hor%C3%B3scopo_chino_2019-sample-epub.acsm?id=CIV8DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=CIV8DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Con humildad y amor se las entrego, recíbanlas con candor y alegría. Feliz Año del Chancho, Jabalí, Cerdo. La respiración es la base de la vida plena. Pedro Engel Bratter"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "N9erDwAAQBAJ",
+      "etag": "wbdOg7+vhXs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/N9erDwAAQBAJ",
+      "volumeInfo": {
+        "title": "E-Pack Bianca y Deseo septiembre 2019",
+        "authors": [
+          ", Varias Autoras"
+        ],
+        "publisher": "HarperCollins Ibérica",
+        "publishedDate": "2019-09-01",
+        "description": "Fantasía mediterránea Julia James Su proposición había sido por pura conveniencia... pero el deseo que había nacido entre ellos no era conveniente en absoluto. Y llegaste tú... Janice Maynard Estás esperando un hijo mío. Serás mi mujer.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788413286150"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8413286158"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=N9erDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=N9erDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.es/books?id=N9erDwAAQBAJ&printsec=frontcover&dq=2019&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=N9erDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=N9erDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ES",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 4.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 4.74,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=N9erDwAAQBAJ&rdid=book-N9erDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 4990000.0,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 4740000.0,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ES",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.es/books/download/E_Pack_Bianca_y_Deseo_septiembre_2019-sample-epub.acsm?id=N9erDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.es/books/download/E_Pack_Bianca_y_Deseo_septiembre_2019-sample-pdf.acsm?id=N9erDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=N9erDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Fantasía mediterránea Julia James Su proposición había sido por pura conveniencia... pero el deseo que había nacido entre ellos no era conveniente en absoluto."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8liwDwAAQBAJ",
+      "etag": "yH2GaRyPFsM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8liwDwAAQBAJ",
+      "volumeInfo": {
+        "title": "E-Pack Bianca octubre 2019",
+        "authors": [
+          ", Varias Autoras"
+        ],
+        "publisher": "HarperCollins Ibérica",
+        "publishedDate": "2019-10-01",
+        "description": "El viaje del deseo Julia James Su romance era tórrido... ¡y tuvo consecuencias escandalosas! Un oasis de pasión Susan Stephens Una noche de pasión... ¡con inesperadas consecuencias! Inocencia y placer Rachael Thomas La condición impuesta por el griego... ¡era que ella llevase su anillo de diamantes! Celos desatados Chantelle Shaw Seducida por placer... Reclamada por su hijo",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788413287645"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8413287642"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 640,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8liwDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8liwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.es/books?id=8liwDwAAQBAJ&printsec=frontcover&dq=2019&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=8liwDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=8liwDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ES",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 9.49,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=8liwDwAAQBAJ&rdid=book-8liwDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000.0,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 9490000.0,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ES",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.es/books/download/E_Pack_Bianca_octubre_2019-sample-epub.acsm?id=8liwDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.es/books/download/E_Pack_Bianca_octubre_2019-sample-pdf.acsm?id=8liwDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8liwDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "El viaje del deseo Julia James Su romance era tórrido... ¡y tuvo consecuencias escandalosas!"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "T9VjDwAAQBAJ",
+      "etag": "+U+MPP7Qw9g",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/T9VjDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Palabra de Dios™ 2019",
+        "subtitle": "Lecturas dominicales y reflexiones espirituales",
+        "authors": [
+          "Petra Alexander",
+          "Ruth Bolarte",
+          "Juan Luis Calderón"
+        ],
+        "publisher": "LiturgyTrainingPublications",
+        "description": "Palabra de Dios™ guides you to a deeper understanding of the Sunday Scriptures, providing the readings for this liturgical year, insights from Pastoral leaders, and action steps to strength the Catholic identity in the world. The book also includes prayers and citations for weekday readings.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781616713980"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1616713984"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 160,
+        "printType": "BOOK",
+        "categories": [
+          "Religion"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=T9VjDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=T9VjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.es/books?id=T9VjDwAAQBAJ&pg=PP4&dq=2019&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.es/books?id=T9VjDwAAQBAJ&dq=2019&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Palabra_de_Dios_2019.html?hl=&id=T9VjDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ES",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "ES",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=T9VjDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "25 de diciembre de 2018 La Natividad del Señor 24 30 de diciembre de 2018 La <br>\nSagrada Familia de Jesús, María y José 26 1 de enero de <b>2019</b> Santa María, <br>\nMadre de Dios 28 6 de enero de <b>2019</b> La Epifanía del Señor 30 13 de enero de&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yig7TjhlqVAC",
+      "etag": "lQCMepJsU7c",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yig7TjhlqVAC",
+      "volumeInfo": {
+        "title": "Visión Colombia 2019",
+        "subtitle": "capítulo Caribe : propuesta para discusión",
+        "publisher": "Universidad del Norte",
+        "publishedDate": "2006-01-01",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789588252292"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9588252296"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 196,
+        "printType": "BOOK",
+        "categories": [
+          "Colombia"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=yig7TjhlqVAC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=yig7TjhlqVAC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.es/books?id=yig7TjhlqVAC&dq=2019&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.es/books?id=yig7TjhlqVAC&dq=2019&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Visi%C3%B3n_Colombia_2019.html?hl=&id=yig7TjhlqVAC"
+      },
+      "saleInfo": {
+        "country": "ES",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "ES",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=yig7TjhlqVAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "CONTENIDO: Diagnóstico económico-social de la región Caribe - Industria y finanzas públicas - Infraestructura - desarrollo humano - Desarrollo político e institucional - Política exterior Colombia Desarrollo sostenible - Ciencia y ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "j81jDwAAQBAJ",
+      "etag": "MsMY2GvfTpc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/j81jDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Manual para proclamadores de la palabra® 2019",
+        "authors": [
+          "Raúl H. Lugo Rodríguez",
+          "Feliciano Tapia Bahena"
+        ],
+        "publisher": "LiturgyTrainingPublications",
+        "description": "This resource provides the Sunday readings arranged in sense-lines, with the most indispensable biblical and liturgical information to proclaim them with reverence and efficacy before the assembly. This Manual collaborates in the technical, biblical, and spiritual formation of parish lectors, so that each celebration is a source and culmination of the life of the Church.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781616713959"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "161671395X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "Religion"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=j81jDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=j81jDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.es/books?id=j81jDwAAQBAJ&printsec=frontcover&dq=2019&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.es/books?id=j81jDwAAQBAJ&dq=2019&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Manual_para_proclamadores_de_la_palabra.html?hl=&id=j81jDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ES",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "ES",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=j81jDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This Manual collaborates in the technical, biblical, and spiritual formation of parish lectors, so that each celebration is a source and culmination of the life of the Church."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ZX2IDwAAQBAJ",
+      "etag": "fTs4yTF2bGA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZX2IDwAAQBAJ",
+      "volumeInfo": {
+        "title": "RESOLUCION MISCELANEA FISCAL 2019",
+        "authors": [
+          "Ediciones Fiscales ISEF "
+        ],
+        "publisher": "Ediciones Fiscales ISEF",
+        "description": "Resolución Miscelánea Fiscal, es la mejor en su género y la mas completa. Contenido: Resolución Miscelánea Fiscal para 2018. Anexos 1, 5 y 8. Guía de Trámites Fiscales (Anexo 1-A). Ley para Determinar el Valor de la Unidad de Medida y Actualización. Decreto que Compila Diversos Beneficios Fiscales y Establece Medidas de Simplificación Administrativa. Indicadores Fiscales: Salarios Mínimos 2019. Cuotas Obrero-Patronales de la Ley del Seguro Social. Indice Nacional de Precios al Consumidor. Costo Porcentual Promedio de Captación. Límite de Causación de Recargos y Tasas de Recargos e Intereses. Tasa de Recargos en la Ciudad de México. Tipo de Cambio.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9786075410791"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "6075410791"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 904,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ZX2IDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ZX2IDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.es/books?id=ZX2IDwAAQBAJ&printsec=frontcover&dq=2019&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ZX2IDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ZX2IDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ES",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 10.71,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 10.17,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ZX2IDwAAQBAJ&rdid=book-ZX2IDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.071E7,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 1.017E7,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ES",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.es/books/download/RESOLUCION_MISCELANEA_FISCAL_2019-sample-epub.acsm?id=ZX2IDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.es/books/download/RESOLUCION_MISCELANEA_FISCAL_2019-sample-pdf.acsm?id=ZX2IDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ZX2IDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Anexos 1, 5 y 8. Guía de Trámites Fiscales (Anexo 1-A). Ley para Determinar el Valor de la Unidad de Medida y Actualización. Decreto que Compila Diversos Beneficios Fiscales y Establece Medidas de Simplificación Administrativa."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "FpyDDwAAQBAJ",
+      "etag": "PGXr9IOu0SU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/FpyDDwAAQBAJ",
+      "volumeInfo": {
+        "title": "RÉGIMEN DE INCORPORACIÓN FISCAL 2019",
+        "authors": [
+          "L.C. Antonio Luna Guerra"
+        ],
+        "publisher": "Ediciones Fiscales ISEF",
+        "description": "Este título RÉGIMEN DE INCORPORACIÓN FISCAL nos permite conocer las facilidades y los puntos vulnerables de este régimen, que surgió para incentivar al mercado informal aunque se aplicado en realidad por grandes contribuyentes. Contenido: INTRODUCCION PROLOGO ABREVIATURAS CAPITULO I. ANTECEDENTES 1. Pequeños contribuyentes 2. Régimen intermedio 3. Régimen general CAPITULO II. SUJETOS DEL REGIMEN 1. Quiénes pueden tributar 2. Quiénes no pueden tributar CAPITULO III. TRATAMIENTO FISCAL EN ISR 2019 1. Ingresos acumulables 2. Deducciones autorizadas 3. Pérdidas fiscales pendientes de amortizar 4. PTU 5. Cálculo de los pagos bimestrales 6. Reducción del impuesto 7. Obligaciones de carácter anual 8. Deducciones personales 9. Su tratamiento en el IVA 10. Tratamiento del IEPS CAPITULO IV. OBLIGACIONES DE ESTE REGIMEN CAPITULO V. REPERCUSIONES DEL CODIGO FISCAL DE LA FEDERACION 1. Obligaciones 2. Responsabilidad solidaria 3. Asesores fiscales 4. Visitas domiciliarias 5. Créditos fiscales y su garantía 6. Relación de negocios con otras empresas CAPITULO VI. CONCLUSIONES Y RECOMENDACIONES REFERENCIAS ELECTRONICAS HEMEROGRAFIA BIBLIOGRAFIA",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9786075411224"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "6075411224"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 176,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=FpyDDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=FpyDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.es/books?id=FpyDDwAAQBAJ&printsec=frontcover&dq=2019&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=FpyDDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=FpyDDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ES",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 17.28,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 16.42,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=FpyDDwAAQBAJ&rdid=book-FpyDDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1.728E7,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 1.642E7,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "ES",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.es/books/download/R%C3%89GIMEN_DE_INCORPORACI%C3%93N_FISCAL_2019-sample-epub.acsm?id=FpyDDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.es/books/download/R%C3%89GIMEN_DE_INCORPORACI%C3%93N_FISCAL_2019-sample-pdf.acsm?id=FpyDDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=FpyDDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Este título RÉGIMEN DE INCORPORACIÓN FISCAL nos permite conocer las facilidades y los puntos vulnerables de este régimen, que surgió para incentivar al mercado informal aunque se aplicado en realidad por grandes contribuyentes."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "n6WoDwAAQBAJ",
+      "etag": "kmw1iU8q3AA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/n6WoDwAAQBAJ",
+      "volumeInfo": {
+        "title": "SMIA Perspecitvas de Cosechas y Situación Alimentaria #2, Julio 2019",
+        "subtitle": "Informe trimestral mundial",
+        "authors": [
+          "Organización de las Naciones Unidas para la Alimentación y la Agricultura"
+        ],
+        "publisher": "Food & Agriculture Org.",
+        "publishedDate": "2019-08-02",
+        "description": "La FAO estima que en todo el mundo 41 países -de los cuales 31 están en África-, necesitan ayuda alimentaria externa. Los conflictos permanentes siguen siendo la principal causa de los elevados niveles de inseguridad alimentaria severa. También las condiciones climáticas adversas y los consiguientes impactos en la producción agrícola han afectado gravemente la disponibilidad y el acceso a los alimentos.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789251316993"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9251316996"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 44,
+        "printType": "BOOK",
+        "categories": [
+          "Political Science"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=n6WoDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=n6WoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.es/books?id=n6WoDwAAQBAJ&pg=PA12&dq=2019&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.es/books?id=n6WoDwAAQBAJ&dq=2019&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/SMIA_Perspecitvas_de_Cosechas_y_Situaci.html?hl=&id=n6WoDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ES",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "ES",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=n6WoDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Trigo Cereales secundarios Arroz (cáscara) Promedio 5 años 2018 estim. <b>2019</b> <br>\npronóst. Promedio 5 años 2018 estim. <b>2019</b> pronóst. Promedio 5 años 2018 <br>\nestim. <b>2019</b> pronóst. África del Norte 19,2 21,3 19,8 12,7 13,8 12,8 6,0 5,0 5,1 <br>\nArgelia&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "QSthDwAAQBAJ",
+      "etag": "D9w0RE6VBcY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QSthDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Manual católico para visitar a los enfermos 2019",
+        "authors": [
+          "Felipe de Jesús Legarreta "
+        ],
+        "publisher": "LiturgyTrainingPublications",
+        "description": "This book contains blessings and the rite for bringing Holy Communion to the sick and homebound, as well as the Sunday Gospel to share, pray, and reflect with them. A practical introduction and a list of patron saints complete this essential tool for ministers of care and extraordinary ministers of Holy Communion. The Catholic Handbook for Visiting the Sick and Homebound 2019 is the essential resource for lay ministers of care, especially extraordinary ministers of Holy Communion. This portable, annual resource has been updated to include all the official rites a lay minister will need from the Book of Blessings and Pastoral Care of the Sick: Rites of Anointing and Viaticum to bring Holy Communion to as well as to pray and share the Gospel with those who cannot regularly worship with their parish community.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781616713942"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1616713941"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 256,
+        "printType": "BOOK",
+        "categories": [
+          "Religion"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=QSthDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QSthDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.es/books?id=QSthDwAAQBAJ&printsec=frontcover&dq=2019&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.es/books?id=QSthDwAAQBAJ&dq=2019&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Manual_cat%C3%B3lico_para_visitar_a_los_enfe.html?hl=&id=QSthDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "ES",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "ES",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QSthDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book contains blessings and the rite for bringing Holy Communion to the sick and homebound, as well as the Sunday Gospel to share, pray, and reflect with them."
+      }
+    }
+  ]
+}
