@@ -14,3 +14,7 @@ struct BookCollection {
     let totalItems: Int
     let item:[Book]?
 }
+
+extension BookCollection: Decodable{
+    
+}

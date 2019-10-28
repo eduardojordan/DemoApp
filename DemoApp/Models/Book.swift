@@ -21,7 +21,7 @@ struct Book {
 }
 
 extension Book: Decodable {
-  
+    
     enum CodingKeys: String, CodingKey {
         case bookId = "id"
         case volumeInfo
@@ -41,19 +41,45 @@ extension Book: Decodable {
     init(from decoder:Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
+        // BOOKID
         bookId = try container.decode(String.self, forKey: .bookId)
         
-        let volumeInfo = try container.nestedContainer(keyedBy: CodingKeys.self, forKey: .volumeInfo)
-        title = try volumeInfo.decode(String.self, forKey: .title)
-       
-        //TODO
-        authors = nil
-        publishedDate = nil
-        description = nil
-        coverURL = nil
-        rating = nil
-        numberOfReviews = nil
-        price = nil
+        let volumeInfoContainer = try container.nestedContainer(keyedBy: CodingKeys.self, forKey: .volumeInfo)
+        // TITLE
+        title = try volumeInfoContainer.decode(String.self, forKey: .title)
+        
+        // AUTHORS
+        // Decode optional properties (decodeIfPresent)
+        authors = try volumeInfoContainer.decodeIfPresent([String].self, forKey: .authors)
+        
+        // PUBLISHEDDATE
+        if let publishedDateString = try volumeInfoContainer.decodeIfPresent(String.self, forKey: .publishedDate){
+            publishedDate = DateFormatter.booksAPIDateFormatter.date(from: publishedDateString)
+        }else{
+            publishedDate = nil
+        }
+        
+        // DESCRIPTION
+        description = try volumeInfoContainer.decodeIfPresent(String.self, forKey: .description)
+        
+        //COVERURL
+        do{
+            let imageLinkContainer = try volumeInfoContainer.nestedContainer(keyedBy: CodingKeys.self, forKey: .imageLinks)
+            coverURL = try imageLinkContainer.decodeIfPresent(URL.self, forKey: .coverURL)
+        }catch {
+            coverURL = nil
+        }
+        
+        // RATING
+        rating = try volumeInfoContainer.decodeIfPresent(Float.self, forKey: .rating)
+        
+        // NUMBEROFREVIEWS
+        numberOfReviews = try volumeInfoContainer.decodeIfPresent(Int.self, forKey: .numberOfReview)
+        
+        // PRICE
+        let saleInfoContainer = try? container.nestedContainer(keyedBy: CodingKeys.self, forKey: .saleInfo)
+        let listPriceContainer = try? saleInfoContainer?.nestedContainer(keyedBy: CodingKeys.self, forKey: .listPrice)
+        price = try listPriceContainer?.decodeIfPresent(Float.self, forKey: .price)
     }
     
 }
