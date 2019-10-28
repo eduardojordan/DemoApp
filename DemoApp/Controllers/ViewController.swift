@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var HomeCollectionView: UICollectionView!
+    
     func jsonData(){
         guard let path = Bundle(for: type(of: self)).path(forResource: "APIbooks", ofType: "json") else {
             print("FAIL path")
@@ -34,10 +36,26 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-         jsonData()
+   
+        jsonData()
     }
 
 
+}
+
+extension ViewController: UICollectionViewDelegate{
+    
+}
+
+extension ViewController: UICollectionViewDataSource{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 1 // TODO
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        return UICollectionViewCell()
+    }
+    
+    
 }
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0448A3FA236730160070FEBF /* DateFormatter+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448A3F9236730160070FEBF /* DateFormatter+Custom.swift */; };
+		0448A3FC2367448A0070FEBF /* MediaItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448A3FB2367448A0070FEBF /* MediaItemCollectionViewCell.swift */; };
 		04E6CD0C2365CAAC004C810F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6CD0B2365CAAC004C810F /* AppDelegate.swift */; };
 		04E6CD0E2365CAAC004C810F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6CD0D2365CAAC004C810F /* ViewController.swift */; };
 		04E6CD112365CAAC004C810F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E6CD0F2365CAAC004C810F /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		0448A3F9236730160070FEBF /* DateFormatter+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Custom.swift"; sourceTree = "<group>"; };
+		0448A3FB2367448A0070FEBF /* MediaItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		04E6CD082365CAAC004C810F /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E6CD0B2365CAAC004C810F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E6CD0D2365CAAC004C810F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				04E6CD0D2365CAAC004C810F /* ViewController.swift */,
+				0448A3FB2367448A0070FEBF /* MediaItemCollectionViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				04E6CD2623663972004C810F /* Book.swift in Sources */,
 				04E6CD0E2365CAAC004C810F /* ViewController.swift in Sources */,
+				0448A3FC2367448A0070FEBF /* MediaItemCollectionViewCell.swift in Sources */,
 				04E6CD2C2367079F004C810F /* BookCollection.swift in Sources */,
 				0448A3FA236730160070FEBF /* DateFormatter+Custom.swift in Sources */,
 				04E6CD142365CAAC004C810F /* DemoApp.xcdatamodeld in Sources */,
