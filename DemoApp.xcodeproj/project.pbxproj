@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0448A3FA236730160070FEBF /* DateFormatter+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448A3F9236730160070FEBF /* DateFormatter+Custom.swift */; };
 		0448A3FC2367448A0070FEBF /* MediaItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448A3FB2367448A0070FEBF /* MediaItemCollectionViewCell.swift */; };
+		0448A3FF23674B150070FEBF /* MidiaItemProvidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448A3FE23674B150070FEBF /* MidiaItemProvidable.swift */; };
 		04E6CD0C2365CAAC004C810F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6CD0B2365CAAC004C810F /* AppDelegate.swift */; };
 		04E6CD0E2365CAAC004C810F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6CD0D2365CAAC004C810F /* ViewController.swift */; };
 		04E6CD112365CAAC004C810F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E6CD0F2365CAAC004C810F /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		0448A3F9236730160070FEBF /* DateFormatter+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Custom.swift"; sourceTree = "<group>"; };
 		0448A3FB2367448A0070FEBF /* MediaItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		0448A3FE23674B150070FEBF /* MidiaItemProvidable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiaItemProvidable.swift; sourceTree = "<group>"; };
 		04E6CD082365CAAC004C810F /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E6CD0B2365CAAC004C810F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E6CD0D2365CAAC004C810F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0448A3FD23674AF50070FEBF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0448A3FE23674B150070FEBF /* MidiaItemProvidable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		04E6CCFF2365CAAC004C810F = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,8 @@
 				04E6CD202365CD43004C810F /* Models */,
 				04E6CD212365CD4B004C810F /* Views */,
 				04E6CD222365CD55004C810F /* Controllers */,
+				04E6CD242365D18B004C810F /* CoreData */,
+				0448A3FD23674AF50070FEBF /* Protocols */,
 				04E6CD3123672F66004C810F /* Extensions */,
 				04E6CD232365CDBD004C810F /* Resources */,
 			);
@@ -82,7 +94,6 @@
 			children = (
 				04E6CD2523663972004C810F /* Book.swift */,
 				04E6CD2B2367079F004C810F /* BookCollection.swift */,
-				04E6CD242365D18B004C810F /* CoreData */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,6 +220,7 @@
 				0448A3FA236730160070FEBF /* DateFormatter+Custom.swift in Sources */,
 				04E6CD142365CAAC004C810F /* DemoApp.xcdatamodeld in Sources */,
 				04E6CD0C2365CAAC004C810F /* AppDelegate.swift in Sources */,
+				0448A3FF23674B150070FEBF /* MidiaItemProvidable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

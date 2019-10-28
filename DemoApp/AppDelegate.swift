@@ -16,7 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        guard let viewController = window?.rootViewController as? ViewController else{
+            fatalError("Wrong initial setup")
+        }
+        viewController.mediaItems = [Book(bookId: "1", title: "First Book"), Book(bookId: "2", title: "Second Book")]
         return true
     }
 

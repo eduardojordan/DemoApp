@@ -12,32 +12,36 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var HomeCollectionView: UICollectionView!
     
-    func jsonData(){
-        guard let path = Bundle(for: type(of: self)).path(forResource: "APIbooks", ofType: "json") else {
-            print("FAIL path")
-            return
-        }
-        do{
-            let data = try Data(contentsOf: URL(fileURLWithPath: path))
-            let decoder = JSONDecoder()
-            let bookCollection = try decoder.decode(BookCollection.self, from:data)
-            print("bookCollection",bookCollection)
-//            let firstBook = bookCollection.item?.first!
-//           // print("firstBook",firstBook)
+    
+    
+    var mediaItems: [MediaItemProvidable] = []
+    
+//    func jsonData(){
+//        guard let path = Bundle(for: type(of: self)).path(forResource: "APIbooks", ofType: "json") else {
+//            print("FAIL path")
+//            return
+//        }
+//        do{
+//            let data = try Data(contentsOf: URL(fileURLWithPath: path))
+//            let decoder = JSONDecoder()
+//            let bookCollection = try decoder.decode(BookCollection.self, from:data)
+//            print("bookCollection",bookCollection)
+////            let firstBook = bookCollection.item?.first!
+////           // print("firstBook",firstBook)
+////
+////            print("title-->",firstBook?.title as Any)
+////            print("bookId-->",firstBook?.bookId as Any)
 //
-//            print("title-->",firstBook?.title as Any)
-//            print("bookId-->",firstBook?.bookId as Any)
-            
-        }catch{
-            print("Error")
-        }
-    }
+//        }catch{
+//            print("Error")
+//        }
+//    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
    
-        jsonData()
+       // jsonData()
     }
 
 
@@ -49,13 +53,14 @@ extension ViewController: UICollectionViewDelegate{
 
 extension ViewController: UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1 // TODO
+        return mediaItems.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "mediaItemCell", for: indexPath) as! MediaItemCollectionViewCell
-        cell.titleLabel.text = "The Title Here"
+        let mediaItem = mediaItems[indexPath.row]
+        cell.titleLabel.text = mediaItem.title
         
         return cell
     }
